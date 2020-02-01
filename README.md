@@ -237,7 +237,7 @@ You should be able to verify all checks pass:
 
 Great work!
 
-#### Cleaning Up
+## Cleaning Up
 Clean all the files associated with the web server
 
 ```bash

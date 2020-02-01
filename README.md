@@ -237,6 +237,25 @@ You should be able to verify all checks pass:
 
 Great work!
 
+#### Cleaning Up
+Clean all the files associated with the web server
+
+```bash
+$ rm -f web-srv web-srv.pub
+```
+
+Destroy the ansible-srv machine
+
+```bash
+$ bakerx delete vm ansible-srv
+```
+
+Destroy the web-srv machine
+
+```bash
+$ bakerx delete vm web-srv
+```
+
 ## Extra fun
 
 Can you provision a remote VM (from digitalocean/etc.) and then add its details to the inventory? Can you run your nginx command on it too?
